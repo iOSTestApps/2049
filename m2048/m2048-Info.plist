@@ -38,5 +38,14 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>bb-buddybuild.com.me.danqing.m2048</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
