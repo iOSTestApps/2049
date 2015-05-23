@@ -7,14 +7,11 @@
 //
 
 #import "M2AppDelegate.h"
-#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @implementation M2AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [BuddyBuildSDK setup:self];
-  
   return YES;
 }
 
@@ -43,16 +40,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
   // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-- (BOOL)application:(UIApplication *)application
-            openURL:(NSURL *)url
-  sourceApplication:(NSString *)sourceApplication
-         annotation:(id)annotation {
-  if ([BuddyBuildSDK handleOpenURL:url]) {
-    return YES;
-  }
-  return NO;
 }
 
 @end
