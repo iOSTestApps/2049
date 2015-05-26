@@ -1,1 +1,19 @@
-COCOAPODS: 0.37.1
+PODS:
+  - BuddyBuildSDK (0.1.0)
+
+DEPENDENCIES:
+  - BuddyBuildSDK (from `https://github.com/iOSTestApps/essdeekay.git`)
+
+EXTERNAL SOURCES:
+  BuddyBuildSDK:
+    :git: https://github.com/iOSTestApps/essdeekay.git
+
+CHECKOUT OPTIONS:
+  BuddyBuildSDK:
+    :commit: f07d4c76e110df2c1e44099c0d81f46506233421
+    :git: https://github.com/iOSTestApps/essdeekay.git
+
+SPEC CHECKSUMS:
+  BuddyBuildSDK: e9a769b59aa0579c33cb75e1888068f66c34d700
+
+COCOAPODS: 0.36.0
