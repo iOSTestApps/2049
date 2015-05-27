@@ -6,68 +6,645 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		022708AE7C5BEC46A29B7165 /* API.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EADC734A6AB248977E13F7A /* API.h */; };
+		0A34532C908A5908765D6B0E /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CC0847C45B81A80E7032DFA /* FeedbackViewController.xib */; };
+		0D7B4130FEF75F9E05591930 /* Pods-BuddyBuildSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2AA7C22C35C7DFF3A3DAF7 /* Pods-BuddyBuildSDK-dummy.m */; };
+		193CA4A375BF9AF1671EDB6D /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD28B48E9D693F914372BA9E /* Pods-dummy.m */; };
+		1DD2E0D3E5A74AC7D9BE75E3 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = D4445686289350EF8A768B1D /* API.m */; };
+		213B72766CCA10647CA65E17 /* FeedbackDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F056B2972A05A11F4B803E5 /* FeedbackDialogViewController.xib */; };
+		26F0626C3BCBB6B3DE4E4840 /* BuddyBuildSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D21107892422CABA9AD0A211 /* BuddyBuildSDK.h */; };
+		30B81FA7D7CCF6B03B1DFAD2 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF0313F2B893C6FA6EAA625 /* DrawingView.m */; };
+		372F2E8CFCFD234D72C89CE7 /* BuddyBuildSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 06129DB1BCCDB60A9E1BDBCA /* BuddyBuildSDK.m */; };
+		383F561D3A710B34481EE7F0 /* FeedbackDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F056B2972A05A11F4B803E5 /* FeedbackDialogViewController.xib */; };
+		38779B2FB772DB9476A89628 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAABA33DD00D57391AC502F /* UIKit.framework */; };
+		47E222DC254AC363BB6E1AAE /* FeedbackDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270108FF296DF15C2F3CDFF /* FeedbackDialogViewController.m */; };
+		4C34AC1AC129FCEF3AA2FDCC /* BBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F24E2556257DEF33254899 /* BBUtils.m */; };
+		4CC802AFC443A332B0A4E9DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82FFFDC0221BBCC526C13B3 /* Foundation.framework */; };
+		4F40242B958288AB5CDC964F /* FeedbackDialogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 216485D89C1763D0CB821C78 /* FeedbackDialogViewController.h */; };
+		583B2F3E138860648EB18135 /* ScreenshotWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 89444117957F97ED152A76AB /* ScreenshotWatcher.h */; };
+		5922EB6F7B90E355F44358CE /* FeedbackViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F88376CF28A19FB75877521 /* FeedbackViewController.h */; };
+		5BF9B46BC626E546C3A09CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82FFFDC0221BBCC526C13B3 /* Foundation.framework */; };
+		5C668ACAF1AAA227A9B288B3 /* BBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3314ACCB403A83E25D2382 /* BBUtils.h */; };
+		6126E51E9A5C29DD6DF045D4 /* DrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98329B72F623187BA3BDA7AD /* DrawingView.h */; };
+		64D6C7DCA2C1084FC8EBE554 /* API.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EADC734A6AB248977E13F7A /* API.h */; };
+		73A3B640878FCA29879AA8C0 /* FeedbackDialogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 216485D89C1763D0CB821C78 /* FeedbackDialogViewController.h */; };
+		7E3CD114857C30898BE0FCF0 /* BuddyBuildSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D21107892422CABA9AD0A211 /* BuddyBuildSDK.h */; };
+		7FB5D0FB7DCC68AA6297EC1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82FFFDC0221BBCC526C13B3 /* Foundation.framework */; };
+		809A5BD206BCEB4BE7D09640 /* buddybuild-logo-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259AB07CDFCED2533C26D52A /* buddybuild-logo-blue@2x.png */; };
+		84893BDBFEF5A7E90670BB79 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF0313F2B893C6FA6EAA625 /* DrawingView.m */; };
+		8623E2363DC709F3A1AB6CAE /* ScreenshotWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C8CB950DC66D3318BA1F4 /* ScreenshotWatcher.m */; };
+		9F490AB162F03A6B9AEF883A /* buddybuild-logo-blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26309C9352283F5D561D41B9 /* buddybuild-logo-blue@3x.png */; };
+		A48AF4CEF687648239CCA7E4 /* Pods-m2049-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F26BCF08470D659E57B28A61 /* Pods-m2049-dummy.m */; };
+		A5F6588C9F4821891B0747A9 /* ScreenshotWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C8CB950DC66D3318BA1F4 /* ScreenshotWatcher.m */; };
+		B1C67900C7A4CFB9E6F442A1 /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CC0847C45B81A80E7032DFA /* FeedbackViewController.xib */; };
+		BC8418A62A66B9634BE47F7D /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD386522B1D4079CC88CDE6 /* FeedbackViewController.m */; };
+		C36C88DBCB6A047286F5E365 /* FeedbackViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F88376CF28A19FB75877521 /* FeedbackViewController.h */; };
+		D001801ECA9B789727EEFF41 /* DrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98329B72F623187BA3BDA7AD /* DrawingView.h */; };
+		D30C673ED0145ACD3C444CD6 /* FeedbackDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270108FF296DF15C2F3CDFF /* FeedbackDialogViewController.m */; };
+		DC04E3138952BE6E5F9A31FB /* BBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F24E2556257DEF33254899 /* BBUtils.m */; };
+		DD05258AE0E6309321BE5F9F /* BBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3314ACCB403A83E25D2382 /* BBUtils.h */; };
+		DEAADE7E700E13D071156018 /* ScreenshotWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 89444117957F97ED152A76AB /* ScreenshotWatcher.h */; };
+		E1F34C8ED36136D4335E6104 /* buddybuild-logo-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259AB07CDFCED2533C26D52A /* buddybuild-logo-blue@2x.png */; };
+		E3E9873427659F99D95FDC5F /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = D4445686289350EF8A768B1D /* API.m */; };
+		E467205D3E19756009E53D4A /* BuddyBuildSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 06129DB1BCCDB60A9E1BDBCA /* BuddyBuildSDK.m */; };
+		F0D859E735FD852AE312ACD5 /* Pods-m2049-BuddyBuildSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D9052059B7A3ECB9C34D79 /* Pods-m2049-BuddyBuildSDK-dummy.m */; };
+		F0FD29475BE7C4383BDFBF04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82FFFDC0221BBCC526C13B3 /* Foundation.framework */; };
+		F166E03D1CB6D0B36DF877DE /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD386522B1D4079CC88CDE6 /* FeedbackViewController.m */; };
+		F5C31B488166C362F4B7841C /* buddybuild-logo-blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26309C9352283F5D561D41B9 /* buddybuild-logo-blue@3x.png */; };
+		FE7017A6316F50D97C035DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAABA33DD00D57391AC502F /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CCDF654CF33EB5C6EB9FEBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F36A9AD8C3FD855BFFB096B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F03D0259FEF80A0018B000;
+			remoteInfo = "Pods-m2049-BuddyBuildSDK-BuddyBuildSDK";
+		};
+		15AA85CC1449370DD7017E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F36A9AD8C3FD855BFFB096B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74663DE7DDB8929F83B426D;
+			remoteInfo = "Pods-BuddyBuildSDK-BuddyBuildSDK";
+		};
+		1D34FDCB0DD9CE1C3A5E6646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F36A9AD8C3FD855BFFB096B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90B61304F4B1496081857710;
+			remoteInfo = "Pods-m2049-BuddyBuildSDK";
+		};
+		EE94C2AED96C3383C3760B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F36A9AD8C3FD855BFFB096B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5AC66BDF04C5E1E029134A;
+			remoteInfo = "Pods-BuddyBuildSDK";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		39FAACDDE5CA6A77571EB2B3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0063BF1175C7EC9B7CD5F7E1 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06129DB1BCCDB60A9E1BDBCA /* BuddyBuildSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BuddyBuildSDK.m; path = Pod/Classes/BuddyBuildSDK.m; sourceTree = "<group>"; };
+		06142375DA654F54E6322F8B /* Pods-m2049-BuddyBuildSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2049-BuddyBuildSDK-Private.xcconfig"; path = "../Pods-m2049-BuddyBuildSDK/Pods-m2049-BuddyBuildSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		1F056B2972A05A11F4B803E5 /* FeedbackDialogViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FeedbackDialogViewController.xib; path = Pod/Classes/Internal/FeedbackDialogViewController.xib; sourceTree = "<group>"; };
+		216485D89C1763D0CB821C78 /* FeedbackDialogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedbackDialogViewController.h; path = Pod/Classes/Internal/FeedbackDialogViewController.h; sourceTree = "<group>"; };
+		2270108FF296DF15C2F3CDFF /* FeedbackDialogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FeedbackDialogViewController.m; path = Pod/Classes/Internal/FeedbackDialogViewController.m; sourceTree = "<group>"; };
+		259AB07CDFCED2533C26D52A /* buddybuild-logo-blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "buddybuild-logo-blue@2x.png"; path = "Pod/Assets/buddybuild-logo-blue@2x.png"; sourceTree = "<group>"; };
+		26309C9352283F5D561D41B9 /* buddybuild-logo-blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "buddybuild-logo-blue@3x.png"; path = "Pod/Assets/buddybuild-logo-blue@3x.png"; sourceTree = "<group>"; };
+		2C401F4FD69FC3A59E96FA4E /* Pods-BuddyBuildSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuddyBuildSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		2CC0847C45B81A80E7032DFA /* FeedbackViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FeedbackViewController.xib; path = Pod/Classes/Internal/FeedbackViewController.xib; sourceTree = "<group>"; };
+		2F88376CF28A19FB75877521 /* FeedbackViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedbackViewController.h; path = Pod/Classes/Internal/FeedbackViewController.h; sourceTree = "<group>"; };
+		3636CEAA57D15D13EA8659E0 /* Pods-m2049.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m2049.debug.xcconfig"; sourceTree = "<group>"; };
+		39F2F368A028C88398BEDA14 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		3DD386522B1D4079CC88CDE6 /* FeedbackViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FeedbackViewController.m; path = Pod/Classes/Internal/FeedbackViewController.m; sourceTree = "<group>"; };
+		415FA4B5C754515941991F7E /* Pods-m2049.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m2049.release.xcconfig"; sourceTree = "<group>"; };
+		41C5C952D9C0CA7D97901DBA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A2AA7C22C35C7DFF3A3DAF7 /* Pods-BuddyBuildSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuddyBuildSDK-dummy.m"; sourceTree = "<group>"; };
+		4AB6AC374227EEBF6E3F25E1 /* Pods-m2049-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-m2049-resources.sh"; sourceTree = "<group>"; };
+		582093265636B86006CA6964 /* Pods-BuddyBuildSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuddyBuildSDK-prefix.pch"; sourceTree = "<group>"; };
+		58DF943F30DE7C9F82AC436A /* BuddyBuildSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuildSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0E239FCC8D419727116725 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		63E87502B9AE1F39B504E5D2 /* Pods-BuddyBuildSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuddyBuildSDK.xcconfig"; sourceTree = "<group>"; };
+		6E4C8CB950DC66D3318BA1F4 /* ScreenshotWatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ScreenshotWatcher.m; path = Pod/Classes/Internal/ScreenshotWatcher.m; sourceTree = "<group>"; };
+		73600C51841114CBE457C2BD /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		7FAABA33DD00D57391AC502F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		89444117957F97ED152A76AB /* ScreenshotWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenshotWatcher.h; path = Pod/Classes/Internal/ScreenshotWatcher.h; sourceTree = "<group>"; };
+		89F7CD8193405FA2120E4E60 /* Pods-m2049-BuddyBuildSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-m2049-BuddyBuildSDK-prefix.pch"; path = "../Pods-m2049-BuddyBuildSDK/Pods-m2049-BuddyBuildSDK-prefix.pch"; sourceTree = "<group>"; };
+		8E9CD995D3C361670159D58E /* libPods-m2049.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-m2049.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98329B72F623187BA3BDA7AD /* DrawingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DrawingView.h; path = Pod/Classes/Internal/DrawingView.h; sourceTree = "<group>"; };
+		98928558C0CC7349EFFE9508 /* BuddyBuildSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuildSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9E5622CAAC7332405119C2 /* Pods-m2049-BuddyBuildSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2049-BuddyBuildSDK.xcconfig"; path = "../Pods-m2049-BuddyBuildSDK/Pods-m2049-BuddyBuildSDK.xcconfig"; sourceTree = "<group>"; };
+		9EADC734A6AB248977E13F7A /* API.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = API.h; path = Pod/Classes/Internal/API.h; sourceTree = "<group>"; };
+		A0C38132C36B3580DB84107A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40F9B485CF42DF6C4B873D7 /* Pods-m2049-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-m2049-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4ED9108C136CB0FC83A72E5 /* libPods-BuddyBuildSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyBuildSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD28B48E9D693F914372BA9E /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		B3F24E2556257DEF33254899 /* BBUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBUtils.m; path = Pod/Classes/Internal/BBUtils.m; sourceTree = "<group>"; };
+		B82FFFDC0221BBCC526C13B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BD3314ACCB403A83E25D2382 /* BBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBUtils.h; path = Pod/Classes/Internal/BBUtils.h; sourceTree = "<group>"; };
+		D21107892422CABA9AD0A211 /* BuddyBuildSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BuddyBuildSDK.h; path = Pod/Classes/BuddyBuildSDK.h; sourceTree = "<group>"; };
+		D32DCA518988018FFE600C94 /* libPods-m2049-BuddyBuildSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-m2049-BuddyBuildSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D9052059B7A3ECB9C34D79 /* Pods-m2049-BuddyBuildSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-m2049-BuddyBuildSDK-dummy.m"; path = "../Pods-m2049-BuddyBuildSDK/Pods-m2049-BuddyBuildSDK-dummy.m"; sourceTree = "<group>"; };
+		D4445686289350EF8A768B1D /* API.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = API.m; path = Pod/Classes/Internal/API.m; sourceTree = "<group>"; };
+		D8D340A71F34D74B0792CD5D /* Pods-m2049-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-m2049-environment.h"; sourceTree = "<group>"; };
+		DCF0313F2B893C6FA6EAA625 /* DrawingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DrawingView.m; path = Pod/Classes/Internal/DrawingView.m; sourceTree = "<group>"; };
+		DDBC60B369E4AD6A2A379AF1 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		F18FA375D1D44FF4994040B5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		F26BCF08470D659E57B28A61 /* Pods-m2049-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-m2049-dummy.m"; sourceTree = "<group>"; };
+		F7415832E0A23F5E775CA7E8 /* Pods-m2049-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-m2049-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		05097031D1AC84D542591C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB5D0FB7DCC68AA6297EC1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F62ACCA17D67C0C9FB734F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA74777786C990D211350E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF9B46BC626E546C3A09CA4 /* Foundation.framework in Frameworks */,
+				FE7017A6316F50D97C035DF5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DBE0B0A09ED0F272558649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B5425869A5E58DD8282ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC802AFC443A332B0A4E9DF /* Foundation.framework in Frameworks */,
+				38779B2FB772DB9476A89628 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0A053F6994D22C7F33556F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FD29475BE7C4383BDFBF04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		6636948E97A42B98CCEB36BE /* Products */ = {
+		0B4C691B627AB423B03A9D00 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				63E87502B9AE1F39B504E5D2 /* Pods-BuddyBuildSDK.xcconfig */,
+				2C401F4FD69FC3A59E96FA4E /* Pods-BuddyBuildSDK-Private.xcconfig */,
+				4A2AA7C22C35C7DFF3A3DAF7 /* Pods-BuddyBuildSDK-dummy.m */,
+				582093265636B86006CA6964 /* Pods-BuddyBuildSDK-prefix.pch */,
+				9A9E5622CAAC7332405119C2 /* Pods-m2049-BuddyBuildSDK.xcconfig */,
+				06142375DA654F54E6322F8B /* Pods-m2049-BuddyBuildSDK-Private.xcconfig */,
+				D3D9052059B7A3ECB9C34D79 /* Pods-m2049-BuddyBuildSDK-dummy.m */,
+				89F7CD8193405FA2120E4E60 /* Pods-m2049-BuddyBuildSDK-prefix.pch */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-BuddyBuildSDK";
 			sourceTree = "<group>";
 		};
-		94238C47B0ED947FDB64513D /* Frameworks */ = {
+		2FA1E481E54EB18A0D78FBFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				AA9F90537EE25104EA1DA14F /* BuddyBuildSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4235DB0B6F34DE69CE019CFE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B82FFFDC0221BBCC526C13B3 /* Foundation.framework */,
+				7FAABA33DD00D57391AC502F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CDB99CE1764B32013987718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4235DB0B6F34DE69CE019CFE /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF9DEA7D7290F5C0DC226B1F /* Targets Support Files */ = {
+		7CBF1F414A3CC93D3578DB58 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1F056B2972A05A11F4B803E5 /* FeedbackDialogViewController.xib */,
+				2CC0847C45B81A80E7032DFA /* FeedbackViewController.xib */,
+				259AB07CDFCED2533C26D52A /* buddybuild-logo-blue@2x.png */,
+				26309C9352283F5D561D41B9 /* buddybuild-logo-blue@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8A770F93FF623853E422E60D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58DF943F30DE7C9F82AC436A /* BuddyBuildSDK.bundle */,
+				98928558C0CC7349EFFE9508 /* BuddyBuildSDK.bundle */,
+				A0C38132C36B3580DB84107A /* libPods.a */,
+				A4ED9108C136CB0FC83A72E5 /* libPods-BuddyBuildSDK.a */,
+				8E9CD995D3C361670159D58E /* libPods-m2049.a */,
+				D32DCA518988018FFE600C94 /* libPods-m2049-BuddyBuildSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CE5CC843074CE173A7D917 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD565DB847369444BF2E44E /* Pods */,
+				AE3E9092707891CEEA0E2471 /* Pods-m2049 */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E638C0C678FE85EB649700E8 = {
+		AA9F90537EE25104EA1DA14F /* BuddyBuildSDK */ = {
 			isa = PBXGroup;
 			children = (
-				39FAACDDE5CA6A77571EB2B3 /* Podfile */,
-				94238C47B0ED947FDB64513D /* Frameworks */,
-				6636948E97A42B98CCEB36BE /* Products */,
-				DF9DEA7D7290F5C0DC226B1F /* Targets Support Files */,
+				9EADC734A6AB248977E13F7A /* API.h */,
+				D4445686289350EF8A768B1D /* API.m */,
+				BD3314ACCB403A83E25D2382 /* BBUtils.h */,
+				B3F24E2556257DEF33254899 /* BBUtils.m */,
+				D21107892422CABA9AD0A211 /* BuddyBuildSDK.h */,
+				06129DB1BCCDB60A9E1BDBCA /* BuddyBuildSDK.m */,
+				98329B72F623187BA3BDA7AD /* DrawingView.h */,
+				DCF0313F2B893C6FA6EAA625 /* DrawingView.m */,
+				216485D89C1763D0CB821C78 /* FeedbackDialogViewController.h */,
+				2270108FF296DF15C2F3CDFF /* FeedbackDialogViewController.m */,
+				2F88376CF28A19FB75877521 /* FeedbackViewController.h */,
+				3DD386522B1D4079CC88CDE6 /* FeedbackViewController.m */,
+				89444117957F97ED152A76AB /* ScreenshotWatcher.h */,
+				6E4C8CB950DC66D3318BA1F4 /* ScreenshotWatcher.m */,
+				7CBF1F414A3CC93D3578DB58 /* Resources */,
+				0B4C691B627AB423B03A9D00 /* Support Files */,
 			);
+			path = BuddyBuildSDK;
+			sourceTree = "<group>";
+		};
+		AE3E9092707891CEEA0E2471 /* Pods-m2049 */ = {
+			isa = PBXGroup;
+			children = (
+				F7415832E0A23F5E775CA7E8 /* Pods-m2049-acknowledgements.markdown */,
+				A40F9B485CF42DF6C4B873D7 /* Pods-m2049-acknowledgements.plist */,
+				F26BCF08470D659E57B28A61 /* Pods-m2049-dummy.m */,
+				D8D340A71F34D74B0792CD5D /* Pods-m2049-environment.h */,
+				4AB6AC374227EEBF6E3F25E1 /* Pods-m2049-resources.sh */,
+				3636CEAA57D15D13EA8659E0 /* Pods-m2049.debug.xcconfig */,
+				415FA4B5C754515941991F7E /* Pods-m2049.release.xcconfig */,
+			);
+			name = "Pods-m2049";
+			path = "Target Support Files/Pods-m2049";
+			sourceTree = "<group>";
+		};
+		F92A9D931DBC41563CDC48EB = {
+			isa = PBXGroup;
+			children = (
+				41C5C952D9C0CA7D97901DBA /* Podfile */,
+				6CDB99CE1764B32013987718 /* Frameworks */,
+				2FA1E481E54EB18A0D78FBFC /* Pods */,
+				8A770F93FF623853E422E60D /* Products */,
+				A0CE5CC843074CE173A7D917 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD565DB847369444BF2E44E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0063BF1175C7EC9B7CD5F7E1 /* Pods-acknowledgements.markdown */,
+				DDBC60B369E4AD6A2A379AF1 /* Pods-acknowledgements.plist */,
+				AD28B48E9D693F914372BA9E /* Pods-dummy.m */,
+				5B0E239FCC8D419727116725 /* Pods-environment.h */,
+				73600C51841114CBE457C2BD /* Pods-resources.sh */,
+				F18FA375D1D44FF4994040B5 /* Pods.debug.xcconfig */,
+				39F2F368A028C88398BEDA14 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		25E879693F7F734148430F86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022708AE7C5BEC46A29B7165 /* API.h in Headers */,
+				5C668ACAF1AAA227A9B288B3 /* BBUtils.h in Headers */,
+				26F0626C3BCBB6B3DE4E4840 /* BuddyBuildSDK.h in Headers */,
+				D001801ECA9B789727EEFF41 /* DrawingView.h in Headers */,
+				4F40242B958288AB5CDC964F /* FeedbackDialogViewController.h in Headers */,
+				5922EB6F7B90E355F44358CE /* FeedbackViewController.h in Headers */,
+				583B2F3E138860648EB18135 /* ScreenshotWatcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E142F140D5798F8F7CDCFE31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D6C7DCA2C1084FC8EBE554 /* API.h in Headers */,
+				DD05258AE0E6309321BE5F9F /* BBUtils.h in Headers */,
+				7E3CD114857C30898BE0FCF0 /* BuddyBuildSDK.h in Headers */,
+				6126E51E9A5C29DD6DF045D4 /* DrawingView.h in Headers */,
+				73A3B640878FCA29879AA8C0 /* FeedbackDialogViewController.h in Headers */,
+				C36C88DBCB6A047286F5E365 /* FeedbackViewController.h in Headers */,
+				DEAADE7E700E13D071156018 /* ScreenshotWatcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1706F824D5A85B3A6404BB39 /* Pods-m2049 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0663D1E0B85B8CB8858FE74E /* Build configuration list for PBXNativeTarget "Pods-m2049" */;
+			buildPhases = (
+				479286365DCA7653248FD0FB /* Sources */,
+				05097031D1AC84D542591C7D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3F375B3F3D98F9D75FA37C /* PBXTargetDependency */,
+			);
+			name = "Pods-m2049";
+			productName = "Pods-m2049";
+			productReference = 8E9CD995D3C361670159D58E /* libPods-m2049.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		25F03D0259FEF80A0018B000 /* Pods-m2049-BuddyBuildSDK-BuddyBuildSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF58DA468CC8F9A5400D65C /* Build configuration list for PBXNativeTarget "Pods-m2049-BuddyBuildSDK-BuddyBuildSDK" */;
+			buildPhases = (
+				4729FD3795A6B17AA04000CD /* Sources */,
+				A5DBE0B0A09ED0F272558649 /* Frameworks */,
+				F7D774C6C42D2D1449DB0279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-m2049-BuddyBuildSDK-BuddyBuildSDK";
+			productName = "Pods-m2049-BuddyBuildSDK-BuddyBuildSDK";
+			productReference = 58DF943F30DE7C9F82AC436A /* BuddyBuildSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3021F65FDF00E95AA4E75EC2 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE5C28F541D2605C0D51AE3 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				5D624B665A9E0DC03BF00A2F /* Sources */,
+				EB0A053F6994D22C7F33556F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4866E34122B825A5937853F3 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A0C38132C36B3580DB84107A /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		90B61304F4B1496081857710 /* Pods-m2049-BuddyBuildSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D85AE9C3FC9728674E843C /* Build configuration list for PBXNativeTarget "Pods-m2049-BuddyBuildSDK" */;
+			buildPhases = (
+				3758C6546050AC890434E34D /* Sources */,
+				9FA74777786C990D211350E2 /* Frameworks */,
+				E142F140D5798F8F7CDCFE31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90C356EE9508ECA7B352AE98 /* PBXTargetDependency */,
+			);
+			name = "Pods-m2049-BuddyBuildSDK";
+			productName = "Pods-m2049-BuddyBuildSDK";
+			productReference = D32DCA518988018FFE600C94 /* libPods-m2049-BuddyBuildSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E74663DE7DDB8929F83B426D /* Pods-BuddyBuildSDK-BuddyBuildSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A96722ECBCA8338B87DF70E /* Build configuration list for PBXNativeTarget "Pods-BuddyBuildSDK-BuddyBuildSDK" */;
+			buildPhases = (
+				BE31D4E111E90C70BE735F65 /* Sources */,
+				43F62ACCA17D67C0C9FB734F /* Frameworks */,
+				6D127F584FFED04F75E0F8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BuddyBuildSDK-BuddyBuildSDK";
+			productName = "Pods-BuddyBuildSDK-BuddyBuildSDK";
+			productReference = 98928558C0CC7349EFFE9508 /* BuddyBuildSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FB5AC66BDF04C5E1E029134A /* Pods-BuddyBuildSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9A6058FB0E9325DC2E90DA /* Build configuration list for PBXNativeTarget "Pods-BuddyBuildSDK" */;
+			buildPhases = (
+				1E6A32D9BC82788C9236F8C9 /* Sources */,
+				E3B5425869A5E58DD8282ADC /* Frameworks */,
+				25E879693F7F734148430F86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B6E653850A36D523BFDAA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-BuddyBuildSDK";
+			productName = "Pods-BuddyBuildSDK";
+			productReference = A4ED9108C136CB0FC83A72E5 /* libPods-BuddyBuildSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
-		26C45F5BD92B52F05FD03FD9 /* Project object */ = {
+		4F36A9AD8C3FD855BFFB096B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = EAB0464A1182F06E38D0A2A0 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = BD3179921EDBD8CDDB3A1D0F /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E638C0C678FE85EB649700E8;
-			productRefGroup = 6636948E97A42B98CCEB36BE /* Products */;
+			mainGroup = F92A9D931DBC41563CDC48EB;
+			productRefGroup = 8A770F93FF623853E422E60D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				3021F65FDF00E95AA4E75EC2 /* Pods */,
+				FB5AC66BDF04C5E1E029134A /* Pods-BuddyBuildSDK */,
+				E74663DE7DDB8929F83B426D /* Pods-BuddyBuildSDK-BuddyBuildSDK */,
+				1706F824D5A85B3A6404BB39 /* Pods-m2049 */,
+				90B61304F4B1496081857710 /* Pods-m2049-BuddyBuildSDK */,
+				25F03D0259FEF80A0018B000 /* Pods-m2049-BuddyBuildSDK-BuddyBuildSDK */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		6D127F584FFED04F75E0F8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383F561D3A710B34481EE7F0 /* FeedbackDialogViewController.xib in Resources */,
+				0A34532C908A5908765D6B0E /* FeedbackViewController.xib in Resources */,
+				809A5BD206BCEB4BE7D09640 /* buddybuild-logo-blue@2x.png in Resources */,
+				F5C31B488166C362F4B7841C /* buddybuild-logo-blue@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D774C6C42D2D1449DB0279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213B72766CCA10647CA65E17 /* FeedbackDialogViewController.xib in Resources */,
+				B1C67900C7A4CFB9E6F442A1 /* FeedbackViewController.xib in Resources */,
+				E1F34C8ED36136D4335E6104 /* buddybuild-logo-blue@2x.png in Resources */,
+				9F490AB162F03A6B9AEF883A /* buddybuild-logo-blue@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6A32D9BC82788C9236F8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD2E0D3E5A74AC7D9BE75E3 /* API.m in Sources */,
+				4C34AC1AC129FCEF3AA2FDCC /* BBUtils.m in Sources */,
+				372F2E8CFCFD234D72C89CE7 /* BuddyBuildSDK.m in Sources */,
+				84893BDBFEF5A7E90670BB79 /* DrawingView.m in Sources */,
+				47E222DC254AC363BB6E1AAE /* FeedbackDialogViewController.m in Sources */,
+				BC8418A62A66B9634BE47F7D /* FeedbackViewController.m in Sources */,
+				0D7B4130FEF75F9E05591930 /* Pods-BuddyBuildSDK-dummy.m in Sources */,
+				8623E2363DC709F3A1AB6CAE /* ScreenshotWatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3758C6546050AC890434E34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E9873427659F99D95FDC5F /* API.m in Sources */,
+				DC04E3138952BE6E5F9A31FB /* BBUtils.m in Sources */,
+				E467205D3E19756009E53D4A /* BuddyBuildSDK.m in Sources */,
+				30B81FA7D7CCF6B03B1DFAD2 /* DrawingView.m in Sources */,
+				D30C673ED0145ACD3C444CD6 /* FeedbackDialogViewController.m in Sources */,
+				F166E03D1CB6D0B36DF877DE /* FeedbackViewController.m in Sources */,
+				F0D859E735FD852AE312ACD5 /* Pods-m2049-BuddyBuildSDK-dummy.m in Sources */,
+				A5F6588C9F4821891B0747A9 /* ScreenshotWatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4729FD3795A6B17AA04000CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479286365DCA7653248FD0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48AF4CEF687648239CCA7E4 /* Pods-m2049-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D624B665A9E0DC03BF00A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193CA4A375BF9AF1671EDB6D /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE31D4E111E90C70BE735F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4866E34122B825A5937853F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BuddyBuildSDK";
+			target = FB5AC66BDF04C5E1E029134A /* Pods-BuddyBuildSDK */;
+			targetProxy = EE94C2AED96C3383C3760B6C /* PBXContainerItemProxy */;
+		};
+		90C356EE9508ECA7B352AE98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-m2049-BuddyBuildSDK-BuddyBuildSDK";
+			target = 25F03D0259FEF80A0018B000 /* Pods-m2049-BuddyBuildSDK-BuddyBuildSDK */;
+			targetProxy = 0CCDF654CF33EB5C6EB9FEBF /* PBXContainerItemProxy */;
+		};
+		95B6E653850A36D523BFDAA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BuddyBuildSDK-BuddyBuildSDK";
+			target = E74663DE7DDB8929F83B426D /* Pods-BuddyBuildSDK-BuddyBuildSDK */;
+			targetProxy = 15AA85CC1449370DD7017E59 /* PBXContainerItemProxy */;
+		};
+		AD3F375B3F3D98F9D75FA37C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-m2049-BuddyBuildSDK";
+			target = 90B61304F4B1496081857710 /* Pods-m2049-BuddyBuildSDK */;
+			targetProxy = 1D34FDCB0DD9CE1C3A5E6646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		119E8C64EB216E18210969DD /* Release */ = {
+		0637040FD5F11A2BAEDAB944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3636CEAA57D15D13EA8659E0 /* Pods-m2049.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0880E5D429FDE0E6418749D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C401F4FD69FC3A59E96FA4E /* Pods-BuddyBuildSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BuddyBuildSDK/Pods-BuddyBuildSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		15A70D3E792B6762E3A6E16A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -101,7 +678,120 @@
 			};
 			name = Release;
 		};
-		9C3E83265E5A05AB5EEC383F /* Debug */ = {
+		169FD5FA7E420E1CB004ABFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18FA375D1D44FF4994040B5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		375CEE2C7649F1A672FF7703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BuddyBuildSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4C773B374ECB6AFB41FC3EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F2F368A028C88398BEDA14 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89379A68D0D0EAB41955D798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BuddyBuildSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8E30507DA028CAAC6605D627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415FA4B5C754515941991F7E /* Pods-m2049.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9707F557B528C931D1BF9738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06142375DA654F54E6322F8B /* Pods-m2049-BuddyBuildSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-m2049-BuddyBuildSDK/Pods-m2049-BuddyBuildSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9B33DA39B980914D0167A193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06142375DA654F54E6322F8B /* Pods-m2049-BuddyBuildSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-m2049-BuddyBuildSDK/Pods-m2049-BuddyBuildSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7CEE5927C83D8A33C8C6877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BuddyBuildSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B909B087E638C49156C9B6B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -140,19 +830,100 @@
 			};
 			name = Debug;
 		};
+		BD4689FFD112E869A2E27150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BuddyBuildSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CE17667A35CF308B9BC4DEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C401F4FD69FC3A59E96FA4E /* Pods-BuddyBuildSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BuddyBuildSDK/Pods-BuddyBuildSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAB0464A1182F06E38D0A2A0 /* Build configuration list for PBXProject "Pods" */ = {
+		0663D1E0B85B8CB8858FE74E /* Build configuration list for PBXNativeTarget "Pods-m2049" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C3E83265E5A05AB5EEC383F /* Debug */,
-				119E8C64EB216E18210969DD /* Release */,
+				0637040FD5F11A2BAEDAB944 /* Debug */,
+				8E30507DA028CAAC6605D627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF58DA468CC8F9A5400D65C /* Build configuration list for PBXNativeTarget "Pods-m2049-BuddyBuildSDK-BuddyBuildSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89379A68D0D0EAB41955D798 /* Debug */,
+				375CEE2C7649F1A672FF7703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A96722ECBCA8338B87DF70E /* Build configuration list for PBXNativeTarget "Pods-BuddyBuildSDK-BuddyBuildSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CEE5927C83D8A33C8C6877 /* Debug */,
+				BD4689FFD112E869A2E27150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D85AE9C3FC9728674E843C /* Build configuration list for PBXNativeTarget "Pods-m2049-BuddyBuildSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9707F557B528C931D1BF9738 /* Debug */,
+				9B33DA39B980914D0167A193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3179921EDBD8CDDB3A1D0F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B909B087E638C49156C9B6B3 /* Debug */,
+				15A70D3E792B6762E3A6E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE5C28F541D2605C0D51AE3 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FD5FA7E420E1CB004ABFB /* Debug */,
+				4C773B374ECB6AFB41FC3EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9A6058FB0E9325DC2E90DA /* Build configuration list for PBXNativeTarget "Pods-BuddyBuildSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0880E5D429FDE0E6418749D5 /* Debug */,
+				CE17667A35CF308B9BC4DEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 26C45F5BD92B52F05FD03FD9 /* Project object */;
+	rootObject = 4F36A9AD8C3FD855BFFB096B /* Project object */;
 }
