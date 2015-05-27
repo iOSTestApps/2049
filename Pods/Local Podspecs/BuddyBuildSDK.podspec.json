@@ -1,0 +1,33 @@
+{
+  "name": "BuddyBuildSDK",
+  "version": "0.1.0",
+  "summary": "A short description of BuddyBuildSDK.",
+  "description": "                       An optional longer description of BuddyBuildSDK\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://buddy.build/sdk",
+  "license": "MIT",
+  "authors": {
+    "Christopher Stott": "christopherstott@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/buddybuild/BuddyBuildSDK.git",
+    "tag": "HEAD"
+  },
+  "social_media_url": "https://twitter.com/buddybuild",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "resources": [
+    "Pod/Assets/*.png",
+    "Pod/Classes/**/*.xib"
+  ],
+  "resource_bundles": {
+    "BuddyBuildSDK": [
+      "Pod/Assets/*.png",
+      "Pod/Classes/**/*.xib"
+    ]
+  },
+  "public_header_files": "Pod/Classes/BuddyBuildSDK.h",
+  "frameworks": "UIKit"
+}
