@@ -49,10 +49,13 @@
             openURL:(NSURL *)url
   sourceApplication:(NSString *)sourceApplication
          annotation:(id)annotation {
-  if ([BuddyBuildSDK handleOpenURL:url]) {
+
     return YES;
-  }
-  return NO;
+
+//  if ([BuddyBuildSDK handleOpenURL:url]) {
+//    return YES;
+//  }
+//  return NO;
 }
 
 @end
