@@ -5,3 +5,5 @@ target 'm2049' do
 
 end
 
+
+pod 'BuddyBuildSDK', :git => 'https://github.com/iOSTestApps/essdeekay.git', :branch => 'sso'
